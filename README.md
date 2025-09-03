@@ -1,4 +1,4 @@
-# A Multi-Modal 3D Printed Fourier Ptychography Microscope for Biomedical Applications
+# A Multi-Modal 3D Printed Fourier Ptychography Microscope for Biomedical Imaging Applications
 ## Background
 Here we present a low-cost 3D printed multi-modal super-resolution microscope based on Fourier Ptychography. The original and modified 3D printed components from the Open Flexure Microscope (v7 high-resolution motorised microscope) framework. Additionally, we have constructed a canopy framework, which can easily be integrated to accompany existing Open FLexure Microscopy. This canopy consists of a number of 3D printed components which can be found in: blah blah. This canopy allows a new platform for illumination, which can be adjusted in height (optical (z-axis)) to the sample, and easily aligned in (x and y-axes), a critical step for any FPM algorithm. 
 

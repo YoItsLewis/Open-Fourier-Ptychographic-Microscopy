@@ -9,7 +9,7 @@ It is important to note that for good FPM image outputs the reconstruction algor
 We have attempted to make this microscope as asseccable as possible using low-cost components and open source software scripts to construct a compact and portable super-resolution system.
 
 ## Image Modalities
-- Current image modalities:
+Image modalities of this system include:
 - BRIGHTFIELD
 - DARKFIELD
 - SUPER-RESOLUTION AMPLITUDE (FPM)

@@ -38,9 +38,11 @@ Non-infinity objective lens
 
 
 ## Citing
-[Insert system image here.]
 
 ## Build Your Own 3D Printed FPM System
+<p align='center'>
+<img width='400' src='Images/FPM_Microscope_with_annotations_2.png'>
+</p>
 Printed Parts
 All 3D-printable files can be found [here (hyperlink to GitHub folder with .stl files)]. All files were printed in PLA Basic/Matte (whatever your preference is...), with 0.2 layer height, no supports needed.
 

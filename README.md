@@ -36,8 +36,9 @@ Material Costs
 | Finite Conjugate Objective Lens | Objective lens for microscope | [Edmund Optics](https://www.edmundoptics.com/f/commercial-grade-standard-microscope-objectives/12253/) | 1 | ~£152 |
 | ⌀1" Protected Aluminum Mirror | To redirect the light path into the camera | [Thorlabs](https://www.thorlabs.com/item/PF10-03-G01) | 1 | ~£50 |
 | M6 Cap Screw and Hardware Kit | Screws, washers and nuts | [Thorlabs](https://www.thorlabs.com/item/HW-KIT2_M) | 1 | ~£120 |
-| **Tools** |
+| **Equipment and Tools** |
 | 10 Piece T Metric Hex Key Set | For tightening screws | [RS UK](https://uk.rs-online.com/web/p/hex-keys/0537811?cm_mmc=UK-PLA-DS3A-_-google-_-CSS_UK_EN_PMAX_RS+PRO+Focus-_--_-537811&matchtype=&&gclsrc=aw.ds&gad_source=1&gad_campaignid=22574727794&gbraid=0AAAAADkeWNMg7XDZ_q49dnlo4-gfSXvsK&gclid=Cj0KCQjwmunNBhDbARIsAOndKpkcEzOdYbLkLIusOwGEGe8-EovpMyIJTA_JNukP1wvmx2jJwT21N_UaAhkqEALw_wcB) | 1 | ~£34 |
+| Bambu Labs P1S 3D Printer | Printing the microscope components | [Bambu Labs](https://uk.store.bambulab.com/products/p1s?id=578772891943051270) | 1 | ~£600 (Usually discounted!) |
 | **Total** |
 
 ## Assembly Instructions

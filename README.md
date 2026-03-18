@@ -32,9 +32,9 @@ Material Costs
 | USB 3.0 A to Right-Angle Micro B Cable | Provides power to the camera and transfers image data | [Thorlabs](https://www.thorlabs.com/item/CABU32) | 1 | ~£17 |
 | 8 Pin Hirose Camera Cable | Cable for triggering camera from microcomputer | [Amazon](https://www.amazon.co.uk/Alvins-Cables-HR25-7TP-8S-Imaging-Industrial/dp/B08FD6B262?source=ps-sl-shoppingads-lpcontext&ref_=fplfs&th=1) | 1 | ~£25 |
 | PC Monitor| Monitor Screen for Raspberry Pi | [Currys](https://www.currys.co.uk/computing/computer-monitors/pc-monitors) | 1 | ~£60 |
-| **Optical and Mechanical Components** |
+| **Optomechanical Components** |
 | Finite Conjugate Objective Lens | Objective lens for microscope | [Edmund Optics](https://www.edmundoptics.com/f/commercial-grade-standard-microscope-objectives/12253/) | 1 | ~£152 |
-| 1" Protected Aluminum Mirror | To redirect the light path into the camera | [Thorlabs](https://www.thorlabs.com/item/PF10-03-G01) | 1 | ~£50 |
+| ⌀1" Protected Aluminum Mirror | To redirect the light path into the camera | [Thorlabs](https://www.thorlabs.com/item/PF10-03-G01) | 1 | ~£50 |
 | M6 Cap Screw and Hardware Kit | Screws, washers and nuts | [Thorlabs](https://www.thorlabs.com/item/HW-KIT2_M) | 1 | ~£120 |
 | **Tools** |
 | 10 Piece T Metric Hex Key Set | For tightening screws | [RS UK](https://uk.rs-online.com/web/p/hex-keys/0537811?cm_mmc=UK-PLA-DS3A-_-google-_-CSS_UK_EN_PMAX_RS+PRO+Focus-_--_-537811&matchtype=&&gclsrc=aw.ds&gad_source=1&gad_campaignid=22574727794&gbraid=0AAAAADkeWNMg7XDZ_q49dnlo4-gfSXvsK&gclid=Cj0KCQjwmunNBhDbARIsAOndKpkcEzOdYbLkLIusOwGEGe8-EovpMyIJTA_JNukP1wvmx2jJwT21N_UaAhkqEALw_wcB) | 1 | ~£34 |

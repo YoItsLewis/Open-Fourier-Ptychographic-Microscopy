@@ -16,9 +16,9 @@ All 3D printed components were fabricated using a fused deposition modelling (FD
 
 We found using the [Bambu Labs P1S 3D Printer](https://uk.store.bambulab.com/products/p1s?id=578772891943051270) to be reliable.
 
-Material Costs 
+#### Material Costs 
 
-Note. This billing list is based on starting from scratch, and you may already have items such as a printer, M6 screws, a laptop, etc.
+Note. This billing list is based on starting from scratch, and you may already have items such as a 3D printer, M6 screws, a laptop, etc.
 
 | Parts | Purpose | Source | Quantity | Price (£) |
 |-----|-----|-----|-----|-----|
@@ -47,12 +47,13 @@ Note. This billing list is based on starting from scratch, and you may already h
 
 ## Assembly Instructions
 
-Instructions for building an OpenFPM system can be found here.
+Instructions for building an OpenFPM system can be found [here](https://github.com/YoItsLewis/Open-Fourier-Ptychographic-Microscopy/tree/main/Assembly%20Instructions).
 
 ## Software
 
-Add link to video instructions and code
-[Link](https://core-electronics.com.au/guides/fully-addressable-rgb-raspberry-pi/) to set up the NeoPixel library on the Raspberry Pi for controlling the WS2812B RGB LEDs
+[Link](https://core-electronics.com.au/guides/fully-addressable-rgb-raspberry-pi/) to set up the NeoPixel library on the Raspberry Pi for controlling the WS2812B RGB LEDs.
+
+Python script for controlling the microscope 
 
 ## Datasets
 

@@ -1,16 +1,14 @@
 # Open Fourier Ptychographic Microscopy (OpenFPM)
 Open Fourier Ptychographic Microscopy (OpenFPM) is an open-source microscope platform for performing computational microscopy. Its fundamentally microscope body is based the OpenFlexure Project on version 7 [[1](https://openflexure.org/projects/microscope/build)].
 
-## Cite Us! :D
-If you've used our work, please consider citing our 2026 OpenFPM paper:
-To be confirmed...
+## Paper and Citation
+Please consider citing our 2026 OpenFPM paper:
+
 
 ## Build Your Own OpenFPM system
 <p align='center'>
 <img width='800' src='Images/Figure 1.png'>
 </p>
-
-## Building Your Own OpenFPM System
 
 ### Hardware
 
@@ -48,7 +46,8 @@ Add video here and link to instructions
 ## Software
 
 Add link to video instructions and code
+[Link](https://core-electronics.com.au/guides/fully-addressable-rgb-raspberry-pi/) to set up the NeoPixel library on the Raspberry Pi for controlling the WS2812B RGB LEDs
 
-## Licence and Collaboration
+## Datasets
 
-...
+Raw datasets for the Siemen star (Red illumination) and Blood smear (RGB 3-channel illumination) using OpenFPM can be found [here](https://pureportal.strath.ac.uk/en/persons/lewis-walker-2/).

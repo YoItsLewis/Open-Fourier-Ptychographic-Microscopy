@@ -1,8 +1,8 @@
 # Open Fourier Ptychographic Microscopy (OpenFPM)
-Open Fourier Ptychographic Microscopy (OpenFPM) is an open-source microscope platform for performing computational microscopy. Its fundamentally microscope body is based the OpenFlexure Project on version 7 [[1](https://openflexure.org/projects/microscope/build)]. Test
+Open Fourier Ptychographic Microscopy (OpenFPM) is an open-source microscope platform for performing computational microscopy. Its fundamentally microscope body is based the [OpenFlexure Project](https://openflexure.org/projects/microscope/build) on version 7.
 
 ## Paper and Citation
-Please consider citing our 2026 OpenFPM paper:
+Please consider citing our 2026 paper:
 
 
 ## Build Your Own OpenFPM system
@@ -12,11 +12,13 @@ Please consider citing our 2026 OpenFPM paper:
 
 ### Hardware
 
-All 3D printed components were fabricated using a fused deposition modelling (FDM) printer with matte black polylactic acid (PLA) filament at 0.2 mm layer height. Default setting on the Printer were used, and supports were used for the following components, generated using the type 'tree(auto)'.
+All 3D printed components were fabricated using a fused deposition modelling (FDM) printer with matte black polylactic acid (PLA) filament at 0.2 mm layer height. Default print setting were used and automatic tree supports were applied.
 
 We found using the [Bambu Labs P1S 3D Printer](https://uk.store.bambulab.com/products/p1s?id=578772891943051270) to be reliable.
 
-Material Costs
+Material Costs 
+
+Note. This billing list is based on starting from scratch, and you may already have items such as a printer, M6 screws, a laptop, etc.
 
 | Parts | Purpose | Source | Quantity | Price (£) |
 |-----|-----|-----|-----|-----|
@@ -29,19 +31,23 @@ Material Costs
 | Monochromatic Camera (c-mount) | Acquiring image data | [Edmund Optics](https://www.edmundoptics.co.uk/c/cameras/1012/#27915=27915_s%3AC-Mount&397021=397021_s%3AMonochrome&29401=29401_s%3AIDS) | 1 | ~£300 (Based on iDS camera. Price varies!) |
 | USB 3.0 A to Right-Angle Micro B Cable | Provides power to the camera and transfers image data | [Thorlabs](https://www.thorlabs.com/item/CABU32) | 1 | ~£17 |
 | 8 Pin Hirose Camera Cable | Cable for triggering camera from microcomputer | [Amazon](https://www.amazon.co.uk/Alvins-Cables-HR25-7TP-8S-Imaging-Industrial/dp/B08FD6B262?source=ps-sl-shoppingads-lpcontext&ref_=fplfs&th=1) | 1 | ~£25 |
-| PC Monitor| Monitor Screen for Raspberry Pi | [Currys](https://www.currys.co.uk/computing/computer-monitors/pc-monitors) | 1 | ~£60 |
+| **Total** |||| ~ £545 |
 | **Optomechanical Components** |
 | Finite Conjugate Objective Lens | Objective lens for microscope | [Edmund Optics](https://www.edmundoptics.com/f/commercial-grade-standard-microscope-objectives/12253/) | 1 | ~£152 |
 | ⌀1" Protected Aluminum Mirror | To redirect the light path into the camera | [Thorlabs](https://www.thorlabs.com/item/PF10-03-G01) | 1 | ~£50 |
 | M6 Cap Screw and Hardware Kit | Screws, washers and nuts | [Thorlabs](https://www.thorlabs.com/item/HW-KIT2_M) | 1 | ~£120 |
+| **Total** |||| ~£322 |
 | **Equipment and Tools** |
 | 10 Piece T Metric Hex Key Set | For tightening screws | [RS UK](https://uk.rs-online.com/web/p/hex-keys/0537811?cm_mmc=UK-PLA-DS3A-_-google-_-CSS_UK_EN_PMAX_RS+PRO+Focus-_--_-537811&matchtype=&&gclsrc=aw.ds&gad_source=1&gad_campaignid=22574727794&gbraid=0AAAAADkeWNMg7XDZ_q49dnlo4-gfSXvsK&gclid=Cj0KCQjwmunNBhDbARIsAOndKpkcEzOdYbLkLIusOwGEGe8-EovpMyIJTA_JNukP1wvmx2jJwT21N_UaAhkqEALw_wcB) | 1 | ~£34 |
 | Bambu Labs P1S 3D Printer | Printing the microscope components | [Bambu Labs](https://uk.store.bambulab.com/products/p1s?id=578772891943051270) | 1 | ~£600 (Usually discounted!) |
-| **Total** |
+| PC Monitor| Monitor Screen for Raspberry Pi | [Currys](https://www.currys.co.uk/computing/computer-monitors/pc-monitors) | 1 | ~£60 |
+| Laptop | External laptop/PC for image reconstruction and processing | [Currys](https://www.currys.co.uk/products/hp-omnibook-7-ngai-17.3-laptop-intel-core-ultra-7-1-tb-ssd-32gb-ram-silver-10282690.html) | 1 | ~£1600 (A decent spec laptop) |
+| **Total** |||| ~£2294 |
+| **Overall Total** |||| ~£3161 |
 
 ## Assembly Instructions
 
-Add video here and link to instructions
+Instructions for building an OpenFPM system can be found here.
 
 ## Software
 
@@ -50,4 +56,4 @@ Add link to video instructions and code
 
 ## Datasets
 
-Raw datasets for the Siemen star (Red illumination) and Blood smear (RGB 3-channel illumination) using OpenFPM can be found [here](https://pureportal.strath.ac.uk/en/persons/lewis-walker-2/).
+Due to file size constraints, raw datasets for the Siemen star (Red illumination) and Blood smear (RGB 3-channel illumination) using OpenFPM are hosted externally in the [Strathclyde Data Repository](https://pureportal.strath.ac.uk/en/persons/lewis-walker-2/).

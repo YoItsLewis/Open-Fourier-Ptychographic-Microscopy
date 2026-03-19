@@ -1,0 +1,6 @@
+# Ignore image datasets
+*.tif
+*.tiff
+
+# Ignore the dataset folder entirely
+Datasets/

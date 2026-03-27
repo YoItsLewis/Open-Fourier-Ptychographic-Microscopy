@@ -19,9 +19,11 @@
   <img width='800' src='../Images/GUI.png'>
 </p>
 
-### Acquiring a live FFT from a screen region.
-OpenFPM is designed with a translation LED array to allow the user to manually align the LED array into the optical axis for better reconstruction outputs. Alignment of the LED array is carried out by using a high contrast sample, and live observation of the brightfield coherent passbands in Fourier Space. This is supported using live on-screen FFT imaging of the sample using the FIJI macro linked below, with credit to the author, Nicolás De Francesco, user: @NicoDF.
+### Acquiring live FFT imaging from on screen display.
+OpenFPM is designed with illuminator translation, allowing the user to manually align the LED array into the optical axis for better reconstruction outputs. Alignment of the LED array is supported using a high contrast sample, and live observation of the brightfield coherent passbands in Fourier Space. This is supported using live on-screen FFT imaging of the sample using the FIJI macro linked below, with credit to the author, Nicolás De Francesco. Below we demonstrate an example of the central LED offset from the and
 
-Example images in image and Fourier space.
+<p align='center'>
+  <img width='800' src='../Images/Uncorrected and Corrected Fourier Space.png'>
+</p>
 
 https://forum.image.sc/t/is-live-fft-of-an-roi-on-screen-possible/31026/4 (November 2019) [Accessed: March 2026]

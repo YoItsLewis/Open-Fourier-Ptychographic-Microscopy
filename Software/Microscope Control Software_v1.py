@@ -399,7 +399,7 @@ right_motors.grid(row=0, column=2, sticky='nw')
 
 # ========= LEFT CONTROLS (pack inside left_controls) =========
 # Color
-color_group = ttk.LabelFrame(left_controls, text='Color')
+color_group = ttk.LabelFrame(left_controls, text='Colour')
 color_group.pack(fill='x', pady=(0,8))
 color_var = tk.StringVar(value='Red')
 color_dropdown = ttk.Combobox(color_group, textvariable=color_var, state='readonly', width=12)
@@ -506,7 +506,7 @@ tk.Button(zr, text='↑', width=10, command=_z_up).pack(side='left', padx=4)
 tk.Button(zr, text='↓', width=10, command=_z_down).pack(side='left', padx=4)
 
 # ----- Stage X+Y Translation -----
-compass_group = ttk.LabelFrame(right_motors, text='Stage X + Y translation')
+compass_group = ttk.LabelFrame(right_motors, text='Stage X + Y Translation')
 compass_group.pack(fill='x', pady=(6,8))
 
 cg = tk.Frame(compass_group)

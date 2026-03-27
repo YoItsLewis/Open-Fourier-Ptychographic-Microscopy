@@ -6,9 +6,9 @@ This folder contains the software used to operate the OpenFPM microscope system,
 
 The OpenFPM control software provides a graphical user interface (GUI) for controlling the programmable LED illumination and microscope translation hardware.
 
-#### Features
+### Features
 
-##### LED Illumination Control
+#### LED Illumination Control
 
 - Support for a 16x16 WS2812B LED array
 - Adjustable:
@@ -16,13 +16,13 @@ The OpenFPM control software provides a graphical user interface (GUI) for contr
   - LED brightness
 - Visual 16x16 LED grid interface
 
-##### Timing
+#### Timing
 
 - User-defined timing parameters for image acquisition:
   - Exposure time (ms) - LED on duration
   - Capture time (ms) - LED off duration
 
-##### Illumination Patterns
+#### Illumination Patterns
 
 Predefined and custom illumination patterns are supported.
 
@@ -36,7 +36,7 @@ Predefined and custom illumination patterns are supported.
 
 User may also define custom LED illumination patterns directly in the code.
 
-##### Motor Control
+#### Motor Control
 
 Integrated manual control of microscope motion:
 - Z-axis focus
@@ -55,7 +55,7 @@ To support this process, the system uses a high-contrast sample and live Fourier
 
 This alignment workflow is supported using a live on-screen FFT display in FIJI, adapted from the macro shared by Nicolás De Francesco [1].
 
-##### Purpose
+#### Purpose
 
 Live FFT visualisation helps the user:
 - Identify off-axis illumination
@@ -71,13 +71,13 @@ Below is an example showing the central LED:
   <img width='800' src='../Images/fft_alignmnet_comparison.png'>
 </p>
 
-##### FIJI Macro Reference
+### FIJI Macro Reference
 Nicolás De Francesco,
 “Is live FFT of an ROI on screen possible?”
 Image.sc Forum, November 2019.
 https://forum.image.sc/t/is-live-fft-of-an-roi-on-screen-possible/31026/4
 Accessed: March 2026.
 
-##### Notes
+### Notes
 - The software was developed for use with the OpenFPM hardware platform and may require modification for alternative hardware configurations
 - Custom illumination sequences and acquisition routines can be adapted within the source code depending on the desired imaging protocol.

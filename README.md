@@ -5,14 +5,10 @@ Traditional FPM systems are often built by modifying commercial microscopes or t
 
 The platform supports multi-angle illumination, synthetic numerical aperture enhancement, and digital aberration correction, while remaining compact and affordable. By leveraging open-source design files and widely available components, OpenFPM lowers the barrier to entry for computational microscopy in research, education, and resource-limited environments.
 
-## Paper and Citation
+## Pre-print Paper and Citation
 Our 2026 bioRxiv preprint is now available:
 
 Walker, Lewis D., et al. "Open Fourier Ptychographic Microscopy (OpenFPM)." bioRxiv (2026): 2026-03.
-
-Please consider citing out  2026 paper:
-
-TBC...
 
 ## Build Your Own OpenFPM system
 <p align='center'>

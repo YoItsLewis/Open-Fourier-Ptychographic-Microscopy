@@ -16,7 +16,7 @@
   - Stage X and Y translation
 
 <p align='center'>
-<img width='800' src='.../Images/GUI.png'>
+  <img width='800' src='../Images/GUI.png'>
 </p>
 
 ### Acquiring a live FFT from a screen region.

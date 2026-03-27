@@ -1,6 +1,6 @@
 # Software
 
-This folder contains the software used to operate the OpenFPM microscope system, including microscope control, illumination sequencing, motorised positioning, and optical alignmnet support.
+This folder contains the software used to operate the OpenFPM microscope system, including microscope control, illumination and camera sequencing, motorised positioning, and optical alignment support.
 
 ### OpenFPM Control GUI
 
@@ -29,12 +29,12 @@ Predefined and custom illumination patterns are supported.
 - Hold modes
   - Brightfield (BF)
   - Darkfield (DF)
-- Triggered acquisiion modes
+- Triggered acquisition modes
   - Central 9 LEDs (3 LED diameter circle)
   - 69  LEDs (9 LED diameter circle)
   - 177 LEDs (15 LED diameter circle)
 
-User may also define custom LED illumination patterns directly in the code.
+Users may also define custom LED illumination patterns directly in the code.
 
 #### Motor Control
 
@@ -42,6 +42,8 @@ Integrated manual control of microscope motion:
 - Z-axis focus
 - X-axis stage translation
 - Y-axis stage translation
+
+#### Image of on-screen GUI
 
 <p align='center'>
   <img width='800' src='../Images/GUI.png'>
@@ -55,12 +57,10 @@ To support this process, the system uses a high-contrast sample and live Fourier
 
 This alignment workflow is supported using a live on-screen FFT display in FIJI, adapted from the macro shared by Nicolás De Francesco [1].
 
-#### Purpose
-
 Live FFT visualisation helps the user:
 - Identify off-axis illumination
 - Observe coherent passband displacement
-- Manually correct LED array alignmnet
+- Manually correct LED array alignment
 - Improve reconstruction consistency and quality
 
 Below is an example showing the central LED:
@@ -79,5 +79,5 @@ https://forum.image.sc/t/is-live-fft-of-an-roi-on-screen-possible/31026/4
 Accessed: March 2026.
 
 ### Notes
-- The software was developed for use with the OpenFPM hardware platform and may require modification for alternative hardware configurations
+- This software was developed for use with the OpenFPM hardware platform and may require modification for alternative hardware configurations.
 - Custom illumination sequences and acquisition routines can be adapted within the source code depending on the desired imaging protocol.

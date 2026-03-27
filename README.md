@@ -1,5 +1,5 @@
 # Open Fourier Ptychographic Microscopy (OpenFPM)
-**Open Fourier Ptychographic Microscopy (OpenFPM)** is a low-cost, modular, and open-source platform for Fourier Ptychographic Microscopy (FPM). It combines programmable LED illumination, 3D-printed optomechanical components, and computational reconstruction to enable high-resolution, wide field-of-view imaging using accessible hardware. The microscope architecture is based on version 7 of the [OpenFlexure Project](https://openflexure.org/projects/microscope/build).
+**Open Fourier Ptychographic Microscopy (OpenFPM)** is a low-cost, modular, and open-source platform for Fourier Ptychographic Microscopy (FPM). It combines programmable LED illumination, 3D-printed optomechanical components, and computational reconstruction to enable high-resolution, wide field-of-view imaging using accessible hardware. The microscope architecture is based on version 7 of the OpenFlexure Project.
 
 ## Overview
 Traditional FPM systems are typically implemented by retrofitting LED arrays onto commercial microscopes or through bespoke laboratory setups. These approaches can limit reproducibility, accessibility, and system-level optimisation. 
@@ -68,7 +68,7 @@ OpenFlexure microscope assembly instructions can be found [here](https://build.o
 
 ## Software
 
-The OpenFPM software provides control of illumination, acquisition, and mechanical positioning via a Raspberry Pi-based GUI.
+The OpenFPM software provides control of illumination, acquisition, and mechanical positioning via a Raspberry Pi-based graphical user interface (GUI).
 - LED control using WS2812B NeoPixel interface
 - Motor control for focus and stage translation
 - Programmable illumination sequences for FPM acquisition
@@ -81,7 +81,8 @@ OpenFPM [Control software](https://github.com/YoItsLewis/Open-Fourier-Ptychograp
 
 Due to file size constraints, example datasets are hosted externally:
 - Siemen star (Red illumination) 
-- Blood smear (RGB 3-channel illumination) 
+- Blood smear (RGB 3-channel illumination)
+
 Available via the [Strathclyde Data Repository](https://pureportal.strath.ac.uk/en/persons/lewis-walker-2/).
 
 ## License
@@ -90,4 +91,4 @@ This project is distributed under the terms specified in the repository license.
 
 ## Acknowledgements
 
-OpenFPM builds upon the foundational work of the OpenFLexure Project and the broader Fourier Ptychographic Microscopy community.
+OpenFPM builds upon the foundational work of the OpenFlexure Project and the broader Fourier Ptychographic Microscopy community.

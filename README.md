@@ -1,14 +1,28 @@
 # Open Fourier Ptychographic Microscopy (OpenFPM)
-**Open Fourier Ptychographic Microscopy (OpenFPM)** is a low-cost, modular, and open-source platform for Fourier Ptychographic Microscopy (FPM). It combines programmable LED illumination, 3D-printed optomechanical components, and computational reconstruction to enable high-resolution, wide field-of-view imaging using accessible hardware. The microscope body is fundamentally based on version 7 of the [OpenFlexure Project](https://openflexure.org/projects/microscope/build).
+**Open Fourier Ptychographic Microscopy (OpenFPM)** is a low-cost, modular, and open-source platform for Fourier Ptychographic Microscopy (FPM). It combines programmable LED illumination, 3D-printed optomechanical components, and computational reconstruction to enable high-resolution, wide field-of-view imaging using accessible hardware. The microscope architecture is based on version 7 of the [OpenFlexure Project](https://openflexure.org/projects/microscope/build).
 
-Traditional FPM systems are often built by modifying commercial microscopes or through bespoke custom-built setups, both of which can limit flexibility, accessibility, and reproducibility. OpenFPM addresses this by providing a fully integrated, purpose-built architecture in which optics, illumination, mechanics, and control software are designed to work together seamlessly.
+## Overview
+Traditional FPM systems are typically implemented by retrofitting LED arrays onto commercial microscopes or through bespoke laboratory setups. These approaches can limit reproducibility, accessibility, and system-level optimisation. 
 
-The platform supports multi-angle illumination, synthetic numerical aperture enhancement, and digital aberration correction, while remaining compact and affordable. By leveraging open-source design files and widely available components, OpenFPM lowers the barrier to entry for computational microscopy in research, education, and resource-limited environments.
+**OpenFPM addresses this by providing a fully integrated, purpose-built system**, in which optics, illumination, mechanics, and control software are designed to work together as a unified platform.
+
+The system supports:
+- Multi-angle programmable illumination
+- Synthetic numerical aperture enhancement
+- Digital aberration correction
+- Multimodal imaging (e.g. brightfield, darkfield, Rheinberg contrast)
+
+By leveraging open-source designs and widely available components, OpenFPM lowers the barrier to entry for computational microscopy in: 
+- Research
+- Education
+- Resource-limited environments
 
 ## Pre-print Paper and Citation
-Our 2026 bioRxiv preprint is now available:
+Our 2026 bioRxiv preprint is available:
 
-Walker, Lewis D., et al. "Open Fourier Ptychographic Microscopy (OpenFPM)." bioRxiv (2026): 2026-03.
+Walker, Lewis D., et al. 
+"Open Fourier Ptychographic Microscopy (OpenFPM)" 
+bioRxiv (2026): 2026-03
 
 ## Build Your Own OpenFPM system
 <p align='center'>
@@ -17,13 +31,13 @@ Walker, Lewis D., et al. "Open Fourier Ptychographic Microscopy (OpenFPM)." bioR
 
 ### Hardware
 
-All 3D-printed components were fabricated using a fused deposition modelling (FDM) printer with matte black polylactic acid (PLA) filament at a 0.2 mm layer height. Default print settings were used, and automatic tree supports were applied where necessary.
+All 3D-printed components were fabricated using fused deposition modelling (FDM) with matte black polylactic acid (PLA) filament at a 0.2 mm layer height. Default print settings were used, with tree supports applied where required.
 
-We found the [Bambu Labs P1S 3D Printer](https://uk.store.bambulab.com/products/p1s?id=578772891943051270) to be reliable.
+We found the [Bambu Labs P1S 3D Printer](https://uk.store.bambulab.com/products/p1s?id=578772891943051270) to be reliable for producing the components.
 
-#### Material Costs
+### Material Costs
 
-Materials list for building an OpenFPM system, assuming users have access to IT equipment and tools for printing and optomechanics.
+Estimated material costs for building an OpenFPM system (excluding tools and general IT equipment):
 
 | Parts | Purpose | Source | Quantity | Price (£) |
 |-----|-----|-----|-----|-----|
@@ -48,16 +62,32 @@ Materials list for building an OpenFPM system, assuming users have access to IT 
 
 ## Assembly Instructions
 
-Instructions for building an OpenFPM system can be found [here](https://github.com/YoItsLewis/Open-Fourier-Ptychographic-Microscopy/tree/main/Assembly%20Instructions).
+OpenFPM assembly guide can be found [here](https://github.com/YoItsLewis/Open-Fourier-Ptychographic-Microscopy/tree/main/Assembly%20Instructions).
 
-External instruction for assembling the microscope body can be found [here](https://build.openflexure.org/openflexure-microscope/v7.0.0-beta5/high_res_microscope.html). 
+OpenFlexure microscope assembly instructions can be found [here](https://build.openflexure.org/openflexure-microscope/v7.0.0-beta5/high_res_microscope.html). 
 
 ## Software
 
-[Link](https://core-electronics.com.au/guides/fully-addressable-rgb-raspberry-pi/) to set up the NeoPixel library on the Raspberry Pi for controlling the WS2812B RGB LEDs.
+The OpenFPM software provides control of illumination, acquisition, and mechanical positioning via a Raspberry Pi-based GUI.
+- LED control using WS2812B NeoPixel interface
+- Motor control for focus and stage translation
+- Programmable illumination sequences for FPM acquisition
 
-[Script](https://github.com/YoItsLewis/Open-Fourier-Ptychographic-Microscopy/tree/main/Software) for controlling the microscope via the Raspberry Pi. The graphical user interface has been tested using both a monitor and through remote desktop connection.
+[NeoPixel](https://core-electronics.com.au/guides/fully-addressable-rgb-raspberry-pi/) setup guide.
+
+OpenFPM [Control software](https://github.com/YoItsLewis/Open-Fourier-Ptychographic-Microscopy/tree/main/Software).
 
 ## Datasets
 
-Due to file size constraints, raw datasets for the Siemen star (Red illumination) and Blood smear (RGB 3-channel illumination) using OpenFPM are hosted externally in the [Strathclyde Data Repository](https://pureportal.strath.ac.uk/en/persons/lewis-walker-2/).
+Due to file size constraints, example datasets are hosted externally:
+- Siemen star (Red illumination) 
+- Blood smear (RGB 3-channel illumination) 
+Available via the [Strathclyde Data Repository](https://pureportal.strath.ac.uk/en/persons/lewis-walker-2/).
+
+## License
+
+This project is distributed under the terms specified in the repository license.
+
+## Acknowledgements
+
+OpenFPM builds upon the foundational work of the OpenFLexure Project and the broader Fourier Ptychographic Microscopy community.

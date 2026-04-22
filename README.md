@@ -87,8 +87,10 @@ Available via the [Strathclyde Data Repository](https://pureportal.strath.ac.uk/
 
 ## License
 
-This project is distributed under the terms specified in the repository license.
+Original OpenFPM software, documentation, and custom files in this repository are released under the MIT License unless otherwise stated.
+
+Certain hardware components are based on or compatible with the OpenFlexure Project. Original OpenFlexure hardware designs are licensed separately under CERN-OHL-S.
 
 ## Acknowledgements
 
-OpenFPM builds upon the foundational work of the OpenFlexure Project and the broader Fourier Ptychographic Microscopy community.
+OpenFPM builds upon foundational contributions from the Fourier Ptychographic Microscopy community and the OpenFlexure Project. OpenFlexure source files and licence information: https://gitlab.com/openflexure

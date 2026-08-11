@@ -31,7 +31,7 @@ bioRxiv (2026): 2026-03
 
 ### Hardware
 
-All 3D-printed components were fabricated using fused deposition modelling (FDM) with matte black polylactic acid (PLA) filament at a 0.2 mm layer height. Default print settings were used, with tree supports applied where required.
+All 3D-printed components were fabricated using fused deposition modelling (FDM) with matte black polylactic acid (PLA) filament at a 0.4 mm layer height. Default print settings were used, with tree supports applied where required.
 
 We found the [Bambu Labs P1S 3D Printer](https://uk.store.bambulab.com/products/p1s?id=578772891943051270) to be reliable for producing the components.
 

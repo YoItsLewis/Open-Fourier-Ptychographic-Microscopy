@@ -18,7 +18,7 @@ The files are organised into three subfolder:
   - Mesh files for direct 3D printing.
   - These are ready to slice and can be used with most 3D printing software. (e.g. Bambu Studio, LycheeSlicer).
 
-### Usage 
+### Usage
 
 - For direct printing, use the files in the STL/ folder.
 - For design modification or customisation, use the F3D/ or STEP/ files depending on your preferred CAD software.

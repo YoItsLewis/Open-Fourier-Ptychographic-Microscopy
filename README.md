@@ -17,12 +17,12 @@ By leveraging open-source designs and widely available components, OpenFPM lower
 - Education
 - Resource-limited environments
 
-## Pre-print Paper and Citation
-Our 2026 bioRxiv preprint is available:
+## Peer-Reviewed Paper and Citation
+Our 2026 peer-reviewed paper is now available in Microscopy and Microanalysis:
 
-Walker, Lewis D., et al. 
-"Open Fourier Ptychographic Microscopy (OpenFPM)" 
-bioRxiv (2026): 2026-03
+Walker, Lewis D., et al. "Open Fourier Ptychographic Microscopy (OpenFPM)." 
+Microscopy and Microanalysis, Volume 32, Issue 5, October 2026, ozag103, 
+https://doi.org/10.1093/mam/ozag103
 
 ## Build Your Own OpenFPM system
 <p align='center'>
@@ -83,7 +83,7 @@ Due to file size constraints, example datasets are hosted externally:
 - Siemen star (Red illumination) 
 - Blood smear (RGB 3-channel illumination)
 
-Available via the [Strathclyde Data Repository](https://pureportal.strath.ac.uk/en/persons/lewis-walker-2/).
+Available via the [Strathclyde Data Repository](https://pureportal.strath.ac.uk/en/datasets/data-for-open-fourier-ptychographic-microscopy-openfpm/).
 
 ## License
 
